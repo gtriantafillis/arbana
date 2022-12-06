@@ -66,6 +66,7 @@ and image */
     margin-bottom: 8px;
     flex-wrap: wrap;
     max-width: 300px;
+    font-family: ;
 }
 
 /* sign up button */
@@ -93,7 +94,7 @@ and image */
     font-size: 25px;
     color:#1f2937;
     align-self: center;
-    margin-top: 30px;
+    margin-top: 80px;
 }
 
 /* images in main class */
@@ -125,7 +126,7 @@ and image */
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 70px 350px;
+    padding: 100px 350px;
 }
 
 /* actuall quote */
@@ -152,7 +153,7 @@ and image */
     margin: 150px;
     padding: 35px 140px;
     border-radius: 15px;
-
+    flex-wrap: wrap;
 }
 
 /* sign up headline */
@@ -176,4 +177,14 @@ and image */
     border-radius: 15px;
     height: 40px;
     width: 150px;
+}
+
+/* copyright notice */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 60px;
 }
