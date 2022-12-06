@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* the class that styles header */ 
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+    height: 50px;
+}
+
+/* header logo style */
+.header {
+    align-self: center;
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 150px;
+    flex-wrap: wrap;
+}
+
+/* header links style */
+.links {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    padding-right: 150px;
+}
+
+/* info class below header with sign up button
+and image */
+.intro {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* the class with all the text and the button */
+.intext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+/* title above info */
+.title {
+    font-size: 36px;
+    color: #f9faf8;
+    font-style: bold;
+    margin-bottom: 8px;
+}
+
+/* info class */
+.info {
+    font-size: 17px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+    max-width: 300px;
+}
+
+/* sign up button */
+.sign{
+    background-color: #3882f6;
+    flex: 0 1 30px;
+    width: 100px;
+}
+
+/* first image next to info */
+.inimg {
+    padding: 30px;
+}
+
+/* next class below info */
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+/* title text above photos */
+.mtitle {
+    font-size: 25px;
+    color:#1f2937;
+    align-self: center;
+    margin-top: 30px;
+}
+
+/* images in main class */
+.images {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 10px;
+    margin-bottom: 90px;
+}
+
+/* class about image with the text below */
+.image {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+/* image properties */
+.img {
+    border: 5px solid #3882f6;
+}
+
+/* quote class below images */
+.insp {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 350px;
+}
+
+/* actuall quote */
+.quote {
+    margin-top: 20px;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    flex-wrap: wrap;
+}
+
+/* the one who said it */
+.quoteper {
+    font-size: 20px;
+    font-style: bold;
+    align-self: flex-end;
+}
+
+/* call to action class */
+.call {
+    
+}
