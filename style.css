@@ -1,3 +1,8 @@
+html {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -18,7 +23,7 @@ body {
     align-self: center;
     font-size: 24px;
     color: #f9faf8;
-    padding-left: 150px;
+    padding-left: 20%;
     flex-wrap: wrap;
 }
 
@@ -29,10 +34,10 @@ body {
     align-items: center;
     font-size: 18px;
     color: #e5e7eb;
-    padding: 0;
-    margin: 0;
+    /*padding: 0;
+    margin: 0;*/
     gap: 20px;
-    padding-right: 150px;
+    padding-right: 20%;
 }
 
 /* info class below header with sign up button
@@ -49,7 +54,6 @@ and image */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 60px;
 }
 
 /* title above info */
@@ -80,7 +84,7 @@ and image */
 
 /* first image next to info */
 .inimg {
-    padding: 30px;
+    padding: 3%;
 }
 
 /* next class below info */
@@ -100,8 +104,9 @@ and image */
 /* images in main class */
 .images {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin: 10px;
+    margin: 5%;
     gap: 10px;
     margin-bottom: 90px;
 }
@@ -150,8 +155,8 @@ and image */
     background-color: #3882f6;
     display: flex;
     justify-content: space-between;
-    margin: 150px;
-    padding: 35px 140px;
+    margin: 6% 10%;
+    padding: 5%;
     border-radius: 15px;
     flex-wrap: wrap;
 }
